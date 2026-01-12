@@ -1,0 +1,158 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.vectors-icon {
+  width:100%;
+}
+.password-props{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.forgot-password,
+.remember-me {
+  top: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  text-align: center;
+}
+.forgot-password {
+  left: 165px;
+  color: #20df7f;
+  display: inline-block;
+  width: 130px;
+  text-decoration: none;
+}
+.remember-me {
+  left: 25px;
+  color: var(--color-white);
+}
+.section-forgot,
+.section-forgot-child {
+  top: 0;
+  left: 0;
+}
+.section-forgot {
+  top: 320px;
+  left: 44px;
+  width: 295px;
+  height: 17px;
+}
+.login-btn,
+.rectangle {
+}
+.rectangle {
+  border: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+.password,
+.username {
+  left: 41px;
+}
+.password {
+  top: 252px;
+  width: 300px;
+  height: 45px;
+}
+.username {
+  border: 0;
+  background-color: transparent;
+  top: 175px;
+}
+.find-hope-with {
+  margin: 0;
+  top: 119px;
+  left: 0;
+  font-size: 16px;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 400px;
+  cursor: auto;
+  opacity: 1;
+}
+.find-hope-with.animate {
+  animation: 1s ease 0s 1 normal forwards pulsate;
+}
+.active{
+  background-color: rgba(0,0,0,0.1);
+  color:blue
+}
+.find-hope-with,
+.form,
+.sign-in {
+}
+.sign-in {
+  margin: 0;
+  top: 0;
+  left: 85px;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-white);
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.psichologo-konsult-1-869x550-r-icon {
+  top: 222px;
+  left: 107px;
+  border-radius: 149.5px;
+  width: 448px;
+  height: 299px;
+  object-fit: cover;
+  opacity: 0.46;
+}
+.dashboard-login-dark-theme {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.desktop-11 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+height: 100vh;
+  overflow: hidden;
+}
+.main-signin{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 86vh;
+  width:80%;
+  margin-top:50px;
+  margin:0 auto;
+}

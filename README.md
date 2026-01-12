@@ -28,20 +28,20 @@ Step 1: Make Sure Docker is running on Mongo
 
 Step 2: Open Mongo Backend
 1) Open CMD
-2) Type 'cd C:\Users\hp\Downloads\AI_Systems\Depression_Detection\code_files\code\checkAuth\auth-demo2'
+2) Type 'cd C:\Users\hp\Downloads\AI_Systems_Project\Depression_Detection\code_files\code\checkAuth\auth-demo2'
 3) Type 'node index.js'
 
 Step 3: Open ML API
 1) Open Anaconda Prompt
-2) Type 'cd  C:\Users\hp\Downloads\AI_Systems\Depression_Detection'
+2) Type 'cd  C:\Users\hp\Downloads\AI_Systems_Project\Depression_Detection'
 3) Type 'python -m uvicorn main:app --port 8000'
 
 Step 4: Open React Front end
 1) Open CMD
-2) Type 'cd C:\Users\hp\Downloads\AI_Systems\Depression_Detection\code_files\front end\DepressionDetectionCode'
+2) Type 'cd C:\Users\hp\Downloads\AI_Systems_Project\Depression_Detection\code_files\front end\DepressionDetectionCode'
 3) Type 'npm start'
 
-Note: Replace 'C:\Users\hp\Downloads\' with the local path where you have downloaded the code folder named 'AI_Systems'
+Note: Replace 'C:\Users\hp\Downloads\' with the local path where you have downloaded the code folder named 'AI_Systems_Project'
 ---
 
 ## Disclaimer
